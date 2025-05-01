@@ -6,7 +6,7 @@ class TennisGame {
 public:
     TennisGame() = default;
 
-    void score_point(bool is_player1_scored)
+    void score_point(const bool is_player1_scored)
     {
         if (is_player1_scored)
             player1_points += 1;
