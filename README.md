@@ -1,4 +1,4 @@
-# Tennis C++ Kata
+# Tennis kata in C++
 
 [![CI](https://github.com/Coding-Cuddles/tennis-cpp-kata/actions/workflows/main.yml/badge.svg)](https://github.com/Coding-Cuddles/tennis-cpp-kata/actions/workflows/main.yml)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
@@ -109,6 +109,26 @@ and run the setup commands again.
 
 Setup is complete when the build succeeds and CTest discovers the disabled
 test.
+
+## Work on the kata
+
+1. Remove the `DISABLED_` prefix from the test in `test_tennis.cpp`, then
+   implement the scoring behavior in `tennis.h`.
+
+2. Run the tests after each change. Use Make when it is installed:
+
+   ```console
+   make test
+   ```
+
+   Otherwise, use CMake and CTest directly:
+
+   ```console
+   cmake --build build --config Debug
+   ctest --test-dir build --build-config Debug --output-on-failure
+   ```
+
+   Continue when CTest reports `100% tests passed`.
 
 ## Make command reference
 
