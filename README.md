@@ -27,7 +27,7 @@ The rules of the tennis kata are as follows:
 
 For more information on the rules of tennis, please see
 the [official rules](https://www.itftennis.com/en/about-us/governance/rules-and-regulations/)
-from International Tennis Federation.
+from the International Tennis Federation.
 
 ## Instructions
 
